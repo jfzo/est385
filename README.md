@@ -23,15 +23,14 @@ Sala 5 | Lunes 15.40 hrs
 
 ### Apuntes
 
-* [Sesion 1](apuntes/ce2_01.pdf)
-* [Sesion 2](apuntes/ce2_02.pdf)
-* [Sesion 3](apuntes/ce2_03.pdf)
+* [Sesion 1](apuntes/ce3_01.pdf)
+* [Sesion 2](apuntes/ce3_02.pdf)
+* [Sesion 3](apuntes/ce3_03.pdf)
 
 
 ### Planificación de las sesiones
 
-<iframe width="600" height="900" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRijHUvOETJ3DsuaH5_6jo4bURRLPFnw6mMgmCY_gyGqqz2QhsQAFpRVk1MukjxonpGaUiaDrw7zotA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
+<iframe width="600" height="900" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCQkyLX4hJ5nZYrZsH_Xm9SvV7NHj8L7bhIR1MCZlNxAIRMDsbxUk9V-5OQMlhw8OOeuYNxb_sAHlj/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ### Evaluaciones del curso
 
