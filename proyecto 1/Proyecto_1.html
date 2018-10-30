@@ -13127,7 +13127,7 @@ div#notebook {
 <li><em>trayectoria_observada</em>.csv : Contiene 20 posiciones (valores para X e Y) cuyas coordenadas X e Y son correctas.</li>
 <li><em>trayectoria_validacion</em>.csv : Contiene 20 posiciones (valores para X e Y) cuyas coordenadas X e Y son correctas.</li>
 </ul>
-<h2 id="Actividad">Actividad<a class="anchor-link" href="#Actividad">&#182;</a></h2><p><strong>1)</strong> Usted debe generar modelos de interpolación usando los datos observados (<em>trayectoria_observada</em>.csv). Para cargar datos desde los archivos <em>csv</em>, debe generar un data frame. Por ejemplo, esto se realiza para el archivo <em>trayectoria_observada</em>.csv de la siguiente manera:</p>
+<h2 id="Actividad">Actividad<a class="anchor-link" href="#Actividad">&#182;</a></h2><p><strong>1)</strong> Usted debe generar modelos de interpolación (con los métodos vistos en clases) usando los $20$ datos observados (<em>trayectoria_observada</em>.csv). Para cargar datos desde los archivos <em>csv</em>, debe generar un data frame. Por ejemplo, esto se realiza para el archivo <em>trayectoria_observada</em>.csv de la siguiente manera:</p>
 <div class="highlight"><pre><span></span>df <span class="o">&lt;-</span> read.csv<span class="p">(</span><span class="s">&quot;trayectoria_observada.csv&quot;</span><span class="p">)</span>
 </pre></div>
 <p>Luego de esto, la expresión <code>df$posX</code> y <code>df$posY</code> permitiran obtener las posiciones X e Y de la trayectoria almacenada.</p>
@@ -13153,7 +13153,7 @@ div#notebook {
 <span class="p">}</span>
 </pre></div>
 <p><strong>Nota 1</strong> Esta función necesita de un archivo denominado <em>datamet.dat</em>, por lo tanto <strong>NO</strong> lo borre o cambie de ubicación.</p>
-<p><strong>Nota 2</strong> Debe usar todos los métodos vistos en clases.</p>
+<p><strong>Nota 2</strong> Debe usar todos los métodos de interpolación vistos en clases.</p>
 <p><strong>3)</strong> Considerando todos los modelos usados y sus resultados obtenidos, utilice las posiciones de validación del archivo respectivo (<em>trayectoria_validacion</em>.csv) para <strong>cuantificar</strong> el nivel de error obtenido por cada método. Para esta finalidad, se le sugiere construir una función que reciba, como parámetro, un vector con los resultados de las interpolaciones sobre los datos de validación, y que una vez ejecutada calcule la medida de error que Ud. considere apropiada para comparar los valores de validación con los valores interpolados.</p>
 <p><strong>4)</strong> Debe entregar el desarrollo y resultados de ejecución de su proyecto en un solo Notebook de Jupyter a través del <strong>Aula</strong>. No olvide colocar comentarios del desarrollo, tal como si estuviera desarrollando una clase (use las celdas Markdown para este fin).</p>
 
