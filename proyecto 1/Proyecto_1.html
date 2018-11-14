@@ -13131,7 +13131,7 @@ div#notebook {
 <div class="highlight"><pre><span></span>df <span class="o">&lt;-</span> read.csv<span class="p">(</span><span class="s">&quot;trayectoria_observada.csv&quot;</span><span class="p">)</span>
 </pre></div>
 <p>Luego de esto, la expresión <code>df$posX</code> y <code>df$posY</code> permitiran obtener las posiciones X e Y de la trayectoria almacenada.</p>
-<p><strong>2)</strong> Por cada modelo probado, debe usar las <em>coordenadas X</em> del archivo de posiciones incorrectas (<em>trayectoria_observada</em>.csv) y luego graficar el resultado sobre la carretera. Para este fin se facilita la siguiente función que realiza esto último, usando como parámetros dos vectores: Uno para las coordenadas X y otro para las cooredenadas Y (resultantes de la interpolación).</p>
+<p><strong>2)</strong> Por cada modelo probado, debe usar las <em>coordenadas X</em> del archivo de posiciones incorrectas (<em>trayectoria_incorrecta</em>.csv) y luego graficar el resultado sobre la carretera. Para este fin se facilita la siguiente función que realiza esto último, usando como parámetros dos vectores: Uno para las coordenadas X y otro para las cooredenadas Y (resultantes de la interpolación).</p>
 <div class="highlight"><pre><span></span>dibuja_interpolacion <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>valoresX<span class="p">,</span> valoresY<span class="p">){</span>
     <span class="kn">require</span><span class="p">(</span>ggplot2<span class="p">)</span>
     <span class="kn">require</span><span class="p">(</span>dplyr<span class="p">)</span>
